@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <form action="#" name="f1" class="f1">
+        
+        <div class="text">
+            <input type="text" name="t1">
+            <input type="text" name="t2">
+        </div>
+
+        <div class="buttons">
+            <input onclick="calc('+')" type="button" value="+">
+            <input onclick="calc('-')" type="button" value="-">
+            <input onclick="calc('*')" type="button" value="*">
+            <input onclick="calc('/')" type="button" value="/">
+        </div>
+        
+        <input type="text" name="result">
+        
+    </form>
+
+    <form action="#" name="product" class="product">
+        <div class="costNum">
+            <input type="text" name="cost"> 
+            <input type="text" name="number">
+        </div>
+
+        <div class="radios">
+            <input type="radio" value="0per" name="radio" id="0">
+            <label for="0">0%</label>
+            <input type="radio" value="5per" name="radio" id="5">
+            <label for="5">5%</label>
+            <input type="radio" value="15per" name="radio" id="15">
+            <label for="15">15%</label>
+        </div>
+
+        <input type="button" value="Hisoblash" onclick="hisobla()">
+
+        <input type="text" name="resultt" placeholder="result">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
